@@ -28,7 +28,7 @@ num-traits = { version = "0.2", default-features = false }
 
 [dev-dependencies]
 linux-embedded-hal = "0.2"
-embedded-hal-mock = "0.2"
+embedded-hal-mock = { git = "https://github.com/ryankurte/embedded-hal-mock", branch = "feature/i2c-transactions" }
 
 [profile.release]
 lto = true
